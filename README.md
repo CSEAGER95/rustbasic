@@ -8,7 +8,7 @@ A basic Rust training bootcamp that follows [The Rust Book](https://doc.rust-lan
 
 - Constants X
   - Could add a more comprehensive check for writing a const  
-  - Uses slice operator to check for `const` keyword and proper syntax
+  - Uses slice operator to check for const keyword and proper syntax
 
 - Mathematical Operators _
 - Boolean Type _
