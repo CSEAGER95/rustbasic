@@ -1,0 +1,1 @@
+-a basic rust training bootcamp that follows the rust book up until chapter six with basic drills to help practice basic rust syntax
