@@ -1,4 +1,4 @@
-use std::io;
+//use std::io;
 use colored::*;
     
 pub fn run_mathematicaloperators()
@@ -65,10 +65,10 @@ pub fn run_mathematicaloperators()
         dtypes.14,
         dtypes.18,
     );
-    println!("unless explicitly mentioned rust defaults to a {dtypes.7} decimal.\n");
+    println!("unless explicitly mentioned rust defaults to a {} decimal.\n",dtypes.7);
     println!(
         "let x = 2.0; // f64
 
-        let y: {dtypes.6} = 3.0; // f32
-        ");
+        let y: {} = 3.0; // f32
+        ",dtypes.6);
 }

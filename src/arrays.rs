@@ -1,2 +1,4 @@
 pub fn run_arrays()
-{println!("array practice incomplete");}
+{
+    println!("---BEGINNING ARRAYS PRACTICE---");
+}

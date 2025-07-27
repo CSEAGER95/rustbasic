@@ -4,7 +4,7 @@ pub fn run_todo() {
         \nmathematical operators X 
         \nboolean X
         \nchar type X
-        \ntuples _
+        \ntuples X
         \narrays _
         \nfunctions _
         \nconditional statements _
