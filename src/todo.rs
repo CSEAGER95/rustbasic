@@ -5,7 +5,7 @@ pub fn run_todo() {
         \nboolean X
         \nchar type X
         \ntuples X
-        \narrays _
+        \narrays X
         \nfunctions _
         \nconditional statements _
         \nloops _
