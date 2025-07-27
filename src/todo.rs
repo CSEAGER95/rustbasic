@@ -1,9 +1,9 @@
 pub fn run_todo() {
     println!("--To Do--
         \nconstants X
-        \nmathematical operators _
-        \nboolean _
-        \nchar type _
+        \nmathematical operators X 
+        \nboolean X
+        \nchar type X
         \ntuples _
         \narrays _
         \nfunctions _

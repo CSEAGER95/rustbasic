@@ -5,5 +5,5 @@ pub fn run_boolean()
     boolean types\n
     let t = true;\n
     let t: bool = true; //explicit declarations\n\n");
-
+    
 }
