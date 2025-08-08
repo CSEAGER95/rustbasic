@@ -1,4 +1,4 @@
-pub fn run_matchkeyword() {
+fn run_matchkeyword() {
     println!("---BEGIN MATCH KEYWORD PRACTICE---");
     println!("
             match dice_roll {{
@@ -12,5 +12,5 @@ pub fn run_matchkeyword() {
 
         "
 
-    ); 
+    );
 }

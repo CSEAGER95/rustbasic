@@ -19,12 +19,12 @@ mod matchkeyword;
 
 fn main() {
     todo::run_todo();
-    constants::run_constants();
-    mathematicaloperators::run_mathematicaloperators();
-    boolean::run_boolean();
-    chartype::run_chartype();
-    tuples::run_tuples();
-    arrays::run_arrays();
+    //constants::run_constants();
+    //mathematicaloperators::run_mathematicaloperators();
+    //boolean::run_boolean();
+    //chartype::run_chartype();
+    //tuples::run_tuples();
+    //arrays::run_arrays();
     functions::run_functions();
     conditionalstatements::run_conditionalstatements();
     loops::run_loops();
