@@ -6,8 +6,8 @@ pub fn run_todo() {
         \nchar type X
         \ntuples X
         \narrays X
-        \nfunctions _
-        \nconditional statements _
+        \nfunctions X 
+        \nconditional statements X
         \nloops _
         \nString type _
         \nreferencing _

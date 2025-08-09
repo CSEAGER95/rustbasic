@@ -1,5 +1,8 @@
+use std::io;
+
 pub fn run_conditionalstatements()
 {
+    const CORRECT_ANSWER: &str = "let language = if a == b {\"rust\"} else {\"java\"};";
     println!("---BEGINNING CONDITIONAL STATEMENTS PRACTICE---");
 
     println!("
@@ -20,4 +23,23 @@ pub fn run_conditionalstatements()
 
             let number = if condition {{ 5 }} else {{ \"six\" }};
     ");
+    println!("write a one line statement defining a parameter called language to be rust if a = b or java if not.");
+    loop {
+        let mut input = String::new();
+        io::stdin()
+            .read_line(&mut input)
+            .unwrap();
+        let input = input.trim();
+
+        if input == CORRECT_ANSWER {
+            println!("correct press enter to continue");
+            let mut dummy = String::new();
+            io::stdin()
+                .read_line(&mut dummy)
+                .unwrap();
+            break;
+        } else {
+            println!("incorrect, try again.");
+        }
+    }
 }

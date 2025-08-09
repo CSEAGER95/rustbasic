@@ -1,3 +1,5 @@
+use std::io;
+
 pub fn run_functions()
 {
     println!("--- BEGINNING FUNCTIONS PRACTICE ---");
@@ -38,6 +40,30 @@ pub fn run_functions()
 
     ");
 
-    println!("write a function that takes parameters and has a return value
-        ");
+    println!("write a function header for a method named checker that takes a
+        an input named input of i32 and returns a value of i32");
+
+    loop{
+        let mut input = String::new();
+        io::stdin()
+            .read_line(&mut input)
+            .unwrap();
+        let input = input.trim();
+
+        if inputchecker(input) {
+            println!("correct! press enter to continue");
+            let mut dummy = String::new();
+            io::stdin()
+                .read_line(&mut dummy)
+                .unwrap();
+            break;
+        } else {
+            println!("incorrect, try again.");
+        }
+    }
+}
+
+fn inputchecker(param: &str) -> bool {
+    let correct = String::from("fn checker(input: i32) -> i32");
+    return correct == param;
 }
